@@ -1,0 +1,238 @@
+@font-face{
+    font-family:'GreatVibes-Regular';
+    src:url('fonts/GreatVibes-Regular.ttf');
+}
+
+@font-face{
+    font-family:'KaushanScript-Regular';
+    src:url('fonts/KaushanScript-Regular.ttf');
+}
+@font-face{
+    font-family:'Muli-Bold';
+    src:url('fonts/Muli-Bold.ttf');
+}
+.container{
+    width:1140px;
+    margin: 0 auto;
+}
+// start display
+.col{
+    padding-left:0px;
+    padding-right:0px;
+}
+.main_title{
+    font-family:'Muli-Bold';
+    display: inline-block;
+    font-size: 1.75rem;
+    margin-left:30px;
+    position: relative;
+    top:28px;
+    text-shadow:1px 1px #3f396a;
+    color:#e38a4a;
+    .r{
+        color:#e89719;
+        font-weight: 600;
+    }
+    .e{
+        color:#b32317;
+        font-weight: 600;
+    }
+    .a{
+        color:#ffd24f;
+        font-weight: 600;
+    }
+    .c{
+        color:#88796a;
+        font-weight: 600;
+    }
+    .h{
+        color:#fff;
+        font-weight: 600;
+    }
+}
+h2{
+    margin-top:30px;
+    text-transform:uppercase;
+    font-size: 2.5rem;
+    text-align:center;
+}
+body{ 
+    background: rgb(229, 228, 230);
+}
+.happy_tea_day{
+    margin-top:50px;
+    // background: #3f396a;
+    margin-bottom: 100px;
+}
+.column-left{
+    // text-align: center;
+    display: block;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow:7px 7px 9px rgb(82, 72, 94);
+    .happy{
+        color:#88796a;
+    }
+    .teacher{
+        color:#e89719;
+    }
+    .day{
+        color:#b32317;
+    }
+    .s{
+        color:#ffd24f;
+    }
+    .rectangle1{
+        height:4px;
+        width:60%;
+        background:linear-gradient(90deg,#88796a,#e89719,#b32317,#ffd24f);
+        margin:0 auto;
+        border-radius:50%;
+    }
+    .display{
+        margin-left:30px;
+        margin-top:40px;
+        margin-right:10px;
+        h6{
+            color:#500a49;
+            // #3f396a;
+            font-weight:600;
+        }
+        p{
+            display: inline-block;
+            margin-bottom: 0;
+        }
+    }
+}
+.rectangle2{
+    width:60%;
+    height:2px;
+    background: cornflowerblue;
+    margin:0 auto;
+}
+.rectangle-last{
+    width:60%;
+    height:2px;
+    background: cornflowerblue;
+    margin:0 auto;
+    margin-bottom:11px;
+}
+.navbar{
+    margin:0 auto;
+    // padding-bottom:20px;
+}
+.navbar-next{
+    // margin-left:167px;
+    margin:0 auto;
+    border-style:none;
+
+    .next_prev{
+        background: #fff;
+    }
+    .next_prev:hover{
+        background: #fff;
+    }
+    .page{
+        margin-left:10px;
+        margin-right:10px;
+        border-radius:50%;
+        padding: .5rem .85rem;
+        background: linear-gradient(90deg, #1a2980, #26d0ce );
+        color:#f0f1ec;
+    }
+    .page:hover{
+        background:#e89719;
+        color:#f0f1ec;
+    }
+}
+
+// end display
+
+// start send greetings to teacher
+.column-right{
+    background: #2e6fb9;   
+    padding:0px 10px;
+    border-radius: 4px;
+    box-shadow:7px 7px 9px rgb(82, 72, 94);
+    form{
+        margin-top:30px;
+    }
+}
+h3{
+    padding-top:30px;
+    margin-top:30px;
+    text-align: center;
+    color: #faf6f6;
+    font-size:2rem;
+    font-family:'KaushanScript-Regular';
+}
+.your_name{
+    width:70%;
+    margin-top:30px;
+    // border
+}
+.required{
+    color:red;
+}
+.your_class{
+    width:70%;
+    margin-top:30px;
+}
+.your_course{
+    width:70%;
+    margin-top:30px;
+}
+.your_wishes{
+    width:70%;
+    margin-top:30px;
+}
+.name-group{
+    margin-top:30px;
+    border-radius:4px ;
+    .name-prepend{
+        width:125px;
+        background:#256e91;
+        color:#f0f1ec;
+        border-style: none;
+    }
+}
+.send_to_teacher{
+    background:#256e91;
+    margin-top:40px;
+    text-align:center;
+    padding:10px 30%;
+    text-transform: uppercase;
+    font-size:20px;
+    margin-left:46px;
+    box-shadow: 3px 3px 4px rgb(3, 20, 116);
+}
+.send_to_teacher:hover{
+    background:#e89719;
+    box-shadow: 3px 3px 4px rgb(70, 27, 3);
+}
+.img-footer{
+    // margin: 0 auto;
+    text-align: center;
+    img{
+        width:61%;
+    }
+}
+.donater{
+    padding-bottom:30px;
+    img{
+        margin-left: 10px;
+    }
+}
+.title-footer{
+    color:rgb(240, 234, 234);
+}
+.designer{
+    color:rgb(240, 234, 234);
+    img{
+        margin-left: 10px;
+    }
+    .pat{
+        color:#46efb7;
+    }
+}
+// end send greetings to teacher
